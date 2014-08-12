@@ -13,7 +13,11 @@ gem 'sqlite3', group: [:development, :test]
 # need this for Heroku
 gem 'pg', group: :production
 
+# Necessary for Heroku
 gem 'rails_12factor', group: :production
+
+# Bootstrap for improving the look
+gem 'bootstrap-sass'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
