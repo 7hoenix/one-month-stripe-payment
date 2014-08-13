@@ -32,7 +32,7 @@ gem 'letter_opener', group: :development
 gem 'activeadmin', github: 'gregbell/active_admin'
 
 # Add Devise to support the user interface for active Admin
-gem 'devise'
+gem 'devise', '~> 3.2.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
